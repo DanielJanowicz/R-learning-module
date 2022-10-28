@@ -1,6 +1,9 @@
 # Intro to R Lesson
 # Oct 16th, 2022
 
+
+###### Part I ######
+
 # Interacting with R
 
 ## I am adding 3 and 5. R is fun!
@@ -30,7 +33,7 @@ expression <- factor(expression)
 
 # Exercise 1 (Vectors)
 samplegroup <- c("CTL", "CTL", "CTL", "KO", "KO", "KO", "OE", "OE", "OE")
-samplegroup <-factor(samplegroup)
+samplegroup <- factor(samplegroup)
 
 # Create a data frame and store it as a variable called 'df'
 df <- data.frame(species, glengths)
@@ -97,4 +100,6 @@ class(glengths) # numeric
 class(metadata) # data frame
 
 summary(proj_summary)
+
+###### Part II ######
 
